@@ -15,6 +15,7 @@
     position: absolute;
     margin: auto;
     left: 0;
+
     right: 0;
     top: 0;
     bottom: 0;
@@ -138,9 +139,24 @@
     color: #000046;
   }
   .inside h1 {
-    font-size: 120px;
-    line-height: 120px;
+    font-size: 50px;
+    line-height: 10px;
   }
+.mt{
+  width: 200px;
+  height: 200px;
+}
+
+
+button{
+  margin-left: 120px;
+  margin-top: 40px;
+  width: 80px;
+  height: 30px;
+  background-color: orangered;
+  border: 0;
+ border-radius: 10px;
+}
 
   @media screen and (max-width:580px) {
     .card{
